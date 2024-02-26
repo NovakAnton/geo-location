@@ -1,0 +1,59 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px; /* Adds space between the elements */
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex-grow: 1;
+  min-width: 120px; /* Ensures inputs do not become too small */
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  white-space: nowrap; /* Prevents the button text from wrapping */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.result {
+  text-align: center;
+}
+
+#coordinates,
+#details {
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+  margin: 20px 0;
+}
